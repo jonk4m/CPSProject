@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      1448,         51]
-NotebookOptionsPosition[      1101,         35]
-NotebookOutlinePosition[      1445,         50]
-CellTagsIndexPosition[      1402,         47]
+NotebookDataLength[      1852,         63]
+NotebookOptionsPosition[      1441,         45]
+NotebookOutlinePosition[      1812,         61]
+CellTagsIndexPosition[      1769,         58]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -31,8 +31,19 @@ Cell[BoxData["\"\<This does not break everything\>\""], "Input",
 
 Cell[BoxData["\"\<This now does not break everything but it did before\>\""], \
 "Input",
- CellChangeTimes->{{3.6677506875571823`*^9, 3.66775069923835*^9}}]
+ CellChangeTimes->{{3.6677506875571823`*^9, 3.66775069923835*^9}}],
+
+Cell["\<\
+git status
+git add GitHubblahblah use tab
+git commit -m \[OpenCurlyDoubleQuote]My message\[CloseCurlyDoubleQuote]
+git push origin master
+git reset --hard (*changes file back to previous commit*)\
+\>", "Text",
+ CellChangeTimes->{{3.6677508615515795`*^9, 3.667750862825707*^9}, {
+  3.667750897301154*^9, 3.6677509853739605`*^9}}]
 },
+WindowToolbars->"EditBar",
 WindowSize->{759, 606},
 WindowMargins->{{Automatic, 295}, {22, Automatic}},
 FrontEndVersion->"10.1 for Microsoft Windows (64-bit) (March 23, 2015)",
@@ -52,7 +63,8 @@ Notebook[{
 Cell[558, 20, 123, 2, 31, "Input"],
 Cell[684, 24, 120, 2, 31, "Input"],
 Cell[807, 28, 132, 1, 31, "Input"],
-Cell[942, 31, 155, 2, 31, "Input"]
+Cell[942, 31, 155, 2, 31, "Input"],
+Cell[1100, 35, 337, 8, 106, "Text"]
 }
 ]
 *)
