@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      1083,         42]
-NotebookOptionsPosition[       808,         28]
-NotebookOutlinePosition[      1152,         43]
-CellTagsIndexPosition[      1109,         40]
+NotebookDataLength[      1254,         46]
+NotebookOptionsPosition[       943,         31]
+NotebookOutlinePosition[      1287,         46]
+CellTagsIndexPosition[      1244,         43]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -24,7 +24,10 @@ Cell[BoxData[
 
 Cell[BoxData[
  RowBox[{"Hey", " ", "ya"}]], "Input",
- CellChangeTimes->{{3.6677497720496407`*^9, 3.667749773319767*^9}}]
+ CellChangeTimes->{{3.6677497720496407`*^9, 3.667749773319767*^9}}],
+
+Cell[BoxData["\"\<This does not break everything\>\""], "Input",
+ CellChangeTimes->{{3.6677504287373023`*^9, 3.667750481753604*^9}}]
 },
 WindowSize->{759, 606},
 WindowMargins->{{Automatic, 295}, {22, Automatic}},
@@ -43,7 +46,8 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[558, 20, 123, 2, 31, "Input"],
-Cell[684, 24, 120, 2, 31, "Input"]
+Cell[684, 24, 120, 2, 31, "Input"],
+Cell[807, 28, 132, 1, 31, "Input"]
 }
 ]
 *)
